@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,23 +7,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="conteudo">
+    <header id="cabecalho">
       <div id="logotipo">
-        <img id="logo" src="assets/car-icon.jpg" alt="Logo Carro" />
-        <h2>AutoMóveis</h2>
+        <div id="img">
+          <img id="logo" src="assets/car-icon.jpg" alt="Logo Carro" />
+        </div>
+        <div id="empresa">
+          <h2>AutoMóveis</h2>
+        </div>
       </div>
 
-      <div id="menu">
-        <ul>
-          <li><a href="">Carros</a></li>
-          <li><a href="">Caminhonetes</a></li>
-          <li><a href="">Outros Veículos</a></li>
-          <li><a href="">Contato</a></li>
-        </ul>
+      <div id="menu-container">
+        <div class="menu">
+          <ul>
+            <li><a href="">Carros</a></li>
+            <li><a href="">Caminhonetes</a></li>
+          </ul>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="">Outros Veículos</a></li>
+            <li><a href="">Contato</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </header>
 
-    <div id="container">
+    <section id="container">
       <div class="card">
         <div>
           <img class="img-car" src="assets/car-1.jpg" alt="" />
@@ -143,7 +153,7 @@
           <input type="button" value="Fazer Proposta" />
         </div>
       </div>
-    </div>
+    </section>
     <br />
   </body>
 </html>
